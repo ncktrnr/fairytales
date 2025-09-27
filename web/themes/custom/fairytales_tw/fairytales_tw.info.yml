@@ -1,0 +1,24 @@
+name: fairytales_tw
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - fairytales_tw/base
+  - fairytales_tw/messages
+  - fairytales_tw/global-styling
+libraries-extend:
+  user/drupal.user:
+    - fairytales_tw/user
+  core/drupal.dropbutton:
+    - fairytales_tw/dropbutton
+  core/drupal.dialog:
+    - fairytales_tw/dialog
+  file/drupal.file:
+    - fairytales_tw/file
+  core/drupal.progress:
+    - fairytales_tw/progress
+  core/drupal.tablesort:
+    - fairytales_tw/drupal.tablesort
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.2.4'
